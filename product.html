@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+  <title> Products</title>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<ul>
+  <li><a href="index.html" class="logo">Board Games</a></li>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="product.html">Products</a></li>
+
+</ul>
+
+<div class="container" id="page-wrapper">
+
+  <div class="filter-wrapper">
+
+
+
+    <div class="orders">
+      <div class = "ord">
+        <label for="orderBy">Order By</label>
+        <select style="width: 150px; height: 30px;" id="orderBy" name="orderBy">
+          <option value="asc-name">Name (ascending)</option>
+          <option value="dsc-name">Name (descending)</option>
+
+        </select>
+      </div>
+    </div>
+
+
+
+    <div class = "ps">
+
+      <label for="priceRange" style="">Price Range</label>
+      <select id="priceRange" name="priceRange" style="width: 150px; height: 30px;
+">
+        <option value="">Select Price Range</option>
+        <option value="cheap">$1-$10</option>
+        <option value="medium">$11-$20</option>
+        <option value="expensive">$21-$30</option>
+        <option value="mostexpensive">$31+</option>
+
+      </select>
+    </div>
+
+
+  </div>
+
+</div>
+<div id="cards">
+</div>
+
+
+
+
+<script type="text/javascript" src="product.js"></script>
+
+
+</body>
+
+
+</html>
